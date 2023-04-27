@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    background-color: #cecece;
+    height: 100vh;
+}
+
+.menu-container {
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+    padding: 32px 24px;
+    border-radius: 16px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1),
+                0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    gap: 16px
+}
+
+.particles {
+    height: 100vh;
+}
