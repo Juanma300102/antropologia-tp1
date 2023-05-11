@@ -46,3 +46,48 @@ table {
   .particles {
     height: 100vh;
   }
+
+  .boecio-container {
+    box-sizing: border-box;
+    position: absolute;
+    top: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 24px;
+    background-color: rgba(255, 255, 255, .7);
+    margin: 20px;;
+  }
+
+  a {
+    color: black;
+  }
+  .back-arrow {
+    position: absolute;
+    top: 5px;
+    margin: 20px;
+    width: fit-content;
+    color: black;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background:
+      linear-gradient(
+        to right,
+        rgb(103, 103, 103),
+        rgb(103, 103, 103)
+      ),
+      linear-gradient(
+        to right,
+        rgba(255, 0, 0, 1),
+        rgba(255, 0, 180, 1),
+        rgba(0, 100, 200, 1)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+  }
+
+  .back-arrow:hover {
+    background-size: 0 3px, 100% 3px;
+  }
