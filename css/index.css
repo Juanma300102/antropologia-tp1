@@ -91,3 +91,22 @@ table {
   .back-arrow:hover {
     background-size: 0 3px, 100% 3px;
   }
+
+  @media (max-width: 600px) {
+    table {
+      margin: 20px;
+    }
+  
+    th, td {
+      padding: 8px 16px;
+      font-size: 12px;
+    }
+  
+    th {
+      font-size: 14px;
+    }
+  
+    tr:nth-child(even) td {
+      background-color: transparent;
+    }
+  }
